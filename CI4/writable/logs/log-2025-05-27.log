@@ -1,0 +1,192 @@
+CRITICAL - 2025-05-27 11:46:26 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: /]
+in APPPATH\Views\alunos\index.php on line 66.
+ 1 APPPATH\Views\alunos\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/index', [], true)
+ 5 APPPATH\Controllers\Aluno.php(11): view('alunos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 11:47:28 --> Error: Call to undefined function set_value()
+[Method: POST, Route: alunos/store]
+in APPPATH\Views\alunos\create.php on line 18.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/create', [], true)
+ 4 APPPATH\Controllers\Aluno.php(32): view('alunos/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 11:47:42 --> Error: Call to undefined function set_value()
+[Method: POST, Route: alunos/store]
+in APPPATH\Views\alunos\create.php on line 18.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/create', [], true)
+ 4 APPPATH\Controllers\Aluno.php(32): view('alunos/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 11:48:41 --> Error: Call to undefined function set_value()
+[Method: POST, Route: alunos/store]
+in APPPATH\Views\alunos\create.php on line 18.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/create', [], true)
+ 4 APPPATH\Controllers\Aluno.php(32): view('alunos/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 11:49:39 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: alunos]
+in APPPATH\Views\alunos\index.php on line 66.
+ 1 APPPATH\Views\alunos\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/index', [], true)
+ 5 APPPATH\Controllers\Aluno.php(11): view('alunos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 11:49:51 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: alunos]
+in APPPATH\Views\alunos\index.php on line 66.
+ 1 APPPATH\Views\alunos\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/index', [], true)
+ 5 APPPATH\Controllers\Aluno.php(11): view('alunos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 11:49:58 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: alunos]
+in APPPATH\Views\alunos\index.php on line 66.
+ 1 APPPATH\Views\alunos\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/index', [], true)
+ 5 APPPATH\Controllers\Aluno.php(11): view('alunos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 11:50:13 --> ErrorException: Attempt to read property "nome" on array
+[Method: GET, Route: alunos]
+in APPPATH\Views\alunos\index.php on line 66.
+ 1 APPPATH\Views\alunos\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/index', [], true)
+ 5 APPPATH\Controllers\Aluno.php(11): view('alunos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 11:50:18 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: alunos]
+in APPPATH\Views\alunos\index.php on line 66.
+ 1 APPPATH\Views\alunos\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/index', [], true)
+ 5 APPPATH\Controllers\Aluno.php(11): view('alunos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 12:00:00 --> ErrorException: Attempt to read property "nome" on array
+[Method: GET, Route: alunos]
+in APPPATH\Views\alunos\index.php on line 67.
+ 1 APPPATH\Views\alunos\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/index', [], true)
+ 5 APPPATH\Controllers\Aluno.php(11): view('alunos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 12:05:34 --> ErrorException: Attempt to read property "nome" on array
+[Method: GET, Route: alunos]
+in APPPATH\Views\alunos\index.php on line 67.
+ 1 APPPATH\Views\alunos\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/index', [], true)
+ 5 APPPATH\Controllers\Aluno.php(11): view('alunos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 12:06:09 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: alunos]
+in APPPATH\Views\alunos\index.php on line 71.
+ 1 APPPATH\Views\alunos\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/index', [], true)
+ 5 APPPATH\Controllers\Aluno.php(11): view('alunos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 12:08:48 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: alunos]
+in APPPATH\Views\alunos\index.php on line 66.
+ 1 APPPATH\Views\alunos\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\Projeto\\CI4\\app\\Views\\alunos\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/index', [], true)
+ 5 APPPATH\Controllers\Aluno.php(11): view('alunos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-27 12:47:14 --> Error: Call to undefined function set_value()
+[Method: POST, Route: alunos/store]
+in APPPATH\Views\alunos\create.php on line 66.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('alunos/create', [], true)
+ 4 APPPATH\Controllers\Aluno.php(32): view('alunos/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Aluno->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
